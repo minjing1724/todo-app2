@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
-    <script src="demo.js"></script>
+
+    <!-- <script src="demo.js"></script> -->
     <script
       src="https://kit.fontawesome.com/2c2f7e47eb.js"
       crossorigin="anonymous"
@@ -16,13 +16,13 @@
     <main>
       <h1>TODO APP</h1>
       <section class="todo-input-section">
-        <input class="todo-input" type="text" />
+        <input id="todo-input" type="text" />
         <button class="todo-input-button">등록</button>
       </section>
       <hr class="section-divider" />
       <h3 class="personal">Personal</h3>
       <section class="todo-list-section">
-        <ul>
+        <!-- <ul class="todoList">
           <li class="todo-item">
             <label>
               <input type="checkbox" />
@@ -47,43 +47,9 @@
               <span>저녁먹기</span>
             </label>
           </li>
-        </ul>
+        </ul> -->
       </section>
-      <hr class="section-divider" />
-      <h3 class="team">Team</h3>
-      <section class="todo-list-section">
-        <ul>
-          <li class="todo-item2">
-            <label>
-              <input type="checkbox" />
-              <span>탕비실정리</span>
-            </label>
-          </li>
-          <li class="todo-item2">
-            <label>
-              <input type="checkbox" />
-              <span>미디어홍보미팅</span>
-            </label>
-          </li>
-          <li class="todo-item2">
-            <label>
-              <input type="checkbox" />
-              <span>컨텐츠 짜기</span>
-            </label>
-          </li>
-          <li class="todo-item2">
-            <label>
-              <input type="checkbox" />
-              <span>영상편집</span>
-            </label>
-          </li>
-        </ul>
-      </section>
-      <hr class="section-divider" />
-      <span class="add">add</span>
-      <span class="plus">
-        <i class="fa-solid fa-plus"></i>
-      </span>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>

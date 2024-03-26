@@ -114,14 +114,6 @@ label span {
   position: relative;
   border-radius: 0.7rem;
 }
-.todo-item2 input {
-  appearance: none;
-  width: 1.2rem;
-  height: 1.2rem;
-  background: cornflowerblue;
-  position: relative;
-  border-radius: 0.7rem;
-}
 
 .todo-item input:checked {
   /* background: white; */
@@ -140,34 +132,12 @@ label span {
   transition: 0.2s linear transform;
 }
 
-.todo-item2 input:before {
-  content: "";
-  width: 0.8rem;
-  height: 0.8rem;
-  position: absolute;
-  top: 0.2rem;
-  left: 0.2rem;
-  background: white;
-  border-radius: 0.7rem;
-  transition: 0.2s linear transform;
-}
-
 .todo-item input:checked:before {
   /* transform: translateX(1rem); */
   background: rgb(230, 120, 90);
 }
 
-.todo-item2 input:checked:before {
-  /* transform: translateX(1rem); */
-  background: rgb(60, 120, 220);
-}
-
 .todo-item input[type="checkbox"]:checked + span {
-  text-decoration: line-through; /* 체크된 상태일 때 취소선 적용 */
-  color: gray;
-}
-
-.todo-item2 input[type="checkbox"]:checked + span {
   text-decoration: line-through; /* 체크된 상태일 때 취소선 적용 */
   color: gray;
 }
